@@ -1967,6 +1967,38 @@ label.tag-label {
   display: block;
 }
 /* END CONTACT MAP */
+
+/* CONTACT RESPONSIVE */
+@media screen and (max-width: 992px){
+  .contact-help-content{
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    left: 0;
+  }
+}
+
+/* BLOG SINGLE RESPONSIVE */
+@media screen and (max-width: 992px){
+  .blog-single1 .blog-single1-img img {
+    max-width: 100%;
+}
+}
+
+/* BLOG SERVICE RESPONSIVE */
+@media screen and (max-width: 992px){
+  .services-intro .row1 {
+    flex-direction: column;
+  }
+
+  .products-mid {
+    width: 300px;
+    margin: 20px auto 40px;
+  }
+
+  .features-row {
+    flex-direction: column;
+  }
+}
 /* END CONTACT */
-
-
